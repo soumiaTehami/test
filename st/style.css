@@ -1,0 +1,8 @@
+.btn {
+    &:hover + .box {
+        transform: scale(1);
+        span {
+            transform: translateY(0);
+        }
+    }
+}
